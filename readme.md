@@ -2,7 +2,7 @@
 
 ### This repo shows how to use web component api inorder to create custom, reusable, modular and encapsulated html element without using any 3rd party libraries or frameworks like React, Veu or Angular.
 
-### Youtube Tutorial Link - https://youtu.be/mEf-6IUsTKs
+### Youtube Tutorial Link - https://youtu.be/gfvFEBXMVSU
 
 #### 📚 Materials/References:
 
