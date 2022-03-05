@@ -62,7 +62,14 @@ class PetCard extends HTMLElement {
   }
 
   disconnectedCallback() {
-    this.shadowRoot.querySelector("#toggle").removeEventListener("click");
+    this.shadowRoot
+      .querySelector("#toggle")
+      .removeEventListener("click", this.toggleInfo);
+    this.shadowRoot
+      .querySelector("#greet")
+      .removeEventListener("click", () =>
+        window.alert(`Hey there! I'm ${this.getAttribute("name")}`)
+      );
   }
 }
 
