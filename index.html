@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Components Final</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="app">
+      <pet-card name="Murphy" avatar="images/rottweiler.jpeg">
+        <span slot="breed">Rotweiler</span>
+        <span slot="age">2️⃣ Years</span>
+      </pet-card>
+      <pet-card name="Gabbar" avatar="images/retriever.jpeg">
+        <span slot="breed">White Retriever</span>
+        <span slot="age">3️⃣ Years</span>
+      </pet-card>
+      <pet-card name="Shiro" avatar="images/bulldog.webp">
+        <span slot="breed">Bull Dog</span>
+        <span slot="age">1️⃣ Years</span>
+      </pet-card>
+    </div>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
